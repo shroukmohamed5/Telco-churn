@@ -1,0 +1,23 @@
+خطوات تشغيل المشروع (أسهل طريقة)
+=================================
+1) فك ضغط الملف، هتلاقي فولدر اسمه churn_project.
+2) افتحي الفولدر وانقري دبل كليك على الملف:   run_app.bat
+   هو لوحده هيسطب المكتبات، يحفظ الموديل، ويفتح التطبيق في المتصفح.
+
+طريقة تانية بالأوامر (لو الملف ما اشتغلش):
+-----------------------------------------
+افتحي Command Prompt جوه الفولدر (اكتبي cmd في شريط العنوان بتاع الفولدر واضغطي Enter) وبعدين:
+
+   python -m pip install -r requirements.txt
+   python train_model.py
+   python -m streamlit run app.py
+
+محتويات الفولدر:
+- Telco_Churn_Notebook.ipynb : النوتبوك (تنضيف الداتا، 7 موديلات، Tuning، حفظ الموديل)
+- train_model.py            : بيحفظ best_model.pkl بنسخة مكتباتك
+- best_model.pkl            : الموديل النهائي
+- app.py                    : تطبيق Streamlit
+- Telco-Customer-Churn.csv  : الداتا
+- Demo_Video_Script.md      : سكريبت الفيديو (دقيقة)
+
+للتسليم: النوتبوك + best_model.pkl + app.py + الفيديو.

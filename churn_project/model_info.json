@@ -1,0 +1,14 @@
+{
+  "model": "Logistic Regression",
+  "best_params": {
+    "clf__C": 1,
+    "clf__class_weight": "balanced"
+  },
+  "test_metrics": {
+    "Accuracy": 0.7381,
+    "Precision": 0.5043,
+    "Recall": 0.7834,
+    "F1": 0.6136,
+    "ROC-AUC": 0.8415
+  }
+}

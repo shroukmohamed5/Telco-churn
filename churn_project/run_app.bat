@@ -1,0 +1,9 @@
+@echo off
+cd /d "%~dp0"
+echo [1/3] Installing libraries...
+python -m pip install -r requirements.txt
+echo [2/3] Training and saving the model (best_model.pkl)...
+python train_model.py
+echo [3/3] Starting the Streamlit app...
+python -m streamlit run app.py
+pause
