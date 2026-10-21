@@ -1,5 +1,9 @@
 [README.md](https://github.com/user-attachments/files/33748519/README.md)
 # Telco Customer Churn – Prediction & Deployment
+<img width="1787" height="899" alt="image" src="https://github.com/user-attachments/assets/ec1bd25b-1efb-4e67-802f-dd91f932966f" />
+<img width="929" height="848" alt="image" src="https://github.com/user-attachments/assets/535cf43d-cee4-42c3-9816-c4683dbf8dd0" />
+<img width="1429" height="756" alt="image" src="https://github.com/user-attachments/assets/a20189b4-8858-4d63-97b4-337ac95c5b6e" />
+
 
 ## Files
 | File | Purpose |
